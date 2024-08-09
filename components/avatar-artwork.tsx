@@ -28,7 +28,7 @@ export function AvatarArtwork({
     <div className={cn("space-y-3", className)} {...props}>
       <div className="overflow-hidden rounded-md">
         <Image
-          src={process.env.BASE_PATH ?? '' + avatar.src}
+          src={`${process.env.BASE_PATH ?? ''}${avatar.src}`}
           alt={avatar.alt}
           width={width}
           height={height}
