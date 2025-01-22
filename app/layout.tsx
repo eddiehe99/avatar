@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   generator: 'Next.js',
   applicationName: 'eddiehe-avatar',
   keywords: ['Next.js', 'React', 'Avatar'],
-  authors: { name: 'Eddie He', url: 'https://eddiehe.super.site' },
-  metadataBase: new URL('https://eddiehe-avatar.netlify.app'),
+  authors: { name: 'Eddie He', url: 'https://www.eddiehe.top' },
+  metadataBase: new URL('https://avatar.eddiehe.top'),
   openGraph: {
     // jpeg does not work
     images: '/og-image.jpg',
