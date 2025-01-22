@@ -1,11 +1,8 @@
 "use client"
 
-import React, { useState, useLayoutEffect } from 'react';
+import React from 'react';
 
-import { AvatarCollection } from "@/components/avatar-collection"
 import { Sidebar } from "@/components/sidebar"
-
-import { collections } from "@/data/collections"
 
 import dynamic from 'next/dynamic';
 
