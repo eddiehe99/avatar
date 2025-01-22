@@ -2,7 +2,7 @@ import React, { useState, useLayoutEffect } from 'react';
 import { AvatarCollection } from './avatar-collection';
 import { Collection, collections } from '@/data/collections';
 
-export default function autoWidthComponent() {
+export default function AutoWidthComponent() {
 
     const [gridWidth, setGridWidth] = useState<number>(1024);
 
