@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
    */
   // basePath: "/avatar",
   basePath: process.env.BASE_PATH ?? '',
+  assetPrefix: process.env.BASE_PATH ?? '',
 
   /**
    * Disable server-based image optimization. Next.js does not support
