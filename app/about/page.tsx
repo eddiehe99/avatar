@@ -58,19 +58,19 @@ export default function Home() {
                 </a>
 
                 <a
-                    href="https://eddiehe.super.site"
+                    href="https://eddiehe.super.site/avatar-cn"
                     className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <h2 className="mb-3 text-2xl font-semibold">
-                        Who is Eddie?{" "}
+                        Where is the publish page?{" "}
                         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                             -&gt;
                         </span>
                     </h2>
                     <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        A high school physics teacher who is fond of coding.
+                        Links that you could access this display through.
                     </p>
                 </a>
 
@@ -81,13 +81,13 @@ export default function Home() {
                     rel="noopener noreferrer"
                 >
                     <h2 className="mb-3 text-2xl font-semibold">
-                        Publish page{" "}
+                        What is this project built by?{" "}
                         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                             -&gt;
                         </span>
                     </h2>
                     <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-                        Links that you could access this display through.
+                        shadcn.
                     </p>
                 </a>
             </div>
