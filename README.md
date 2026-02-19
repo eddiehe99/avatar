@@ -1,5 +1,8 @@
 # Next.js GitHub Pages
 
+> [!CAUTION]
+> `global.css` is a mess. Find time to fix it.
+
 Deploy Next.js to GitHub Pages with GitHub Actions. [View the deployed app](https://gregrickaby.github.io/nextjs-github-pages/) 🚀
 
 > ⚠️ Heads up! GitHub Pages _is not_ a Node.js server. So dynamic logic that cannot be computed during the build process, are not supported! See all the [unsupported features](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#unsupported-features).
