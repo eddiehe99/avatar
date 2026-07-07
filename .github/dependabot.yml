@@ -5,6 +5,11 @@ updates:
     directory: '/'
     schedule:
       interval: 'monthly'
+    allow:
+      - update-types:
+          - "version-update:semver-patch"
+          - "version-update:semver-minor"
+          - "version-update:semver-major"
 
   # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
