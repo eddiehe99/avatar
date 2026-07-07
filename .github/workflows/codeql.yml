@@ -12,6 +12,8 @@ jobs:
   codeql:
     name: CodeQL Analysis
     runs-on: ubuntu-latest
+    env:
+      CODEQL_ACTION_FEATURE_IMPROVED_INCREMENTAL_ANALYSIS: false
     permissions:
       actions: read
       contents: read
