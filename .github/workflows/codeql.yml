@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CODEQL_ACTION_FEATURE_IMPROVED_INCREMENTAL_ANALYSIS: false
+      CODEQL_ACTION_DEBUG: true
     permissions:
       actions: read
       contents: read
@@ -39,4 +40,5 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
       with:
-        category: "/language:${{matrix.language}}"
+        # category disabled for debugging SARIF upload issue
+        # category: "/language:${{matrix.language}}"
