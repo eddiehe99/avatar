@@ -1,0 +1,13 @@
+name: "CodeQL"
+
+queries:
+  - uses: security-extended
+  - uses: security-and-quality
+
+paths-ignore:
+  - node_modules/**
+  - .next/**
+  - dist/**
+  - build/**
+  - '**/*.test.{js,ts,jsx,tsx}'
+  - '**/*.spec.{js,ts,jsx,tsx}'
