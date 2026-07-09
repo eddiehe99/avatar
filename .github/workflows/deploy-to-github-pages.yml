@@ -97,6 +97,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ steps.detect-package-manager.outputs.manager }}-
 
+      # NOTE: In CI environments (GitHub Actions sets CI=true automatically),
+      # pnpm defaults to `--frozen-lockfile`
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
