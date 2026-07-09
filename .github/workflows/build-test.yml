@@ -59,6 +59,9 @@ jobs:
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: pnpm-lock.yaml
 
+      # NOTE: In CI environments (GitHub Actions sets CI=true automatically),
+      # pnpm defaults to `--frozen-lockfile`
+
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
