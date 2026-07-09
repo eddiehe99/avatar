@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'monthly'
+      interval: 'weekly'
     allow:
       - update-types:
           - "version-update:semver-patch"
@@ -17,4 +17,4 @@ updates:
     # You don't need to specify `/.github/workflows` for `directory`. You can use `directory: "/"`.
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
